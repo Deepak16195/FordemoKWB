@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:textStyle="bold">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <android.support.design.widget.TextInputLayout
+
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp">
+
+                <AutoCompleteTextView
+                    android:layout_marginLeft="8dp"
+                    android:id="@+id/flcatgry"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Select Category"
+                    android:maxLines="1"
+                    android:singleLine="true">
+
+                </AutoCompleteTextView>
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="SubCategory"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <android.support.design.widget.TextInputLayout
+
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp">
+
+                <AutoCompleteTextView
+                    android:layout_marginLeft="8dp"
+                    android:id="@+id/flsbcategry"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Select SubCategory"
+                    android:maxLines="1"
+                    android:singleLine="true">
+
+                </AutoCompleteTextView>
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Location"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <android.support.design.widget.TextInputLayout
+
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp">
+
+                <AutoCompleteTextView
+                    android:layout_marginLeft="8dp"
+
+                    android:id="@+id/fllocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Select Location"
+                    android:maxLines="1"
+                    android:singleLine="true">
+
+                </AutoCompleteTextView>
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/fljobtype"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/spinner_shape"
+            android:hint="Select Job Type"
+            android:maxLines="1"
+            android:singleLine="true">
+
+        </Spinner>
+
+
+        <Spinner
+            android:id="@+id/flsalary"
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/spinner_shape"
+            android:hint="Select Salary"
+            android:maxLines="1"
+            android:singleLine="true">
+
+        </Spinner>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/flReset"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_radius"
+                android:backgroundTint="@color/colorRed"
+                android:text="Reset"
+                android:textColor="@color/colorWhite" />
+
+
+            <Button
+                android:id="@+id/flJob"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_radius"
+                android:backgroundTint="@color/colorRed"
+                android:text="Filter Now"
+                android:textColor="@color/colorWhite" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

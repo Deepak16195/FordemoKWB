@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.CandidateDetailedActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        app:theme="@style/ToolbarColoredBackArrow"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+        app:titleTextColor="@color/colorRed"
+        android:background="@color/colorWhite">
+
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:background="@drawable/img_roundshape"
+        android:id="@+id/idCimg"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ic_person_black_24dp"/>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FullName"
+                android:textSize="15sp"
+                android:textColor="@color/colorBlack"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/colorBlack"
+                android:text="Category"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/colorBlack"
+                android:text="Subcategory"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/colorBlack"
+                android:text="Age"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/colorBlack"
+                android:text="Gender"/>
+
+
+            <TextView
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/colorBlack"
+                android:text="MaritalStatus"/>
+            <TextView
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/colorBlack"
+                android:text="MaximumEducation"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/colorBlack"
+                android:text="Religion"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/colorBlack"
+                android:text="ServiceSkill"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/colorBlack"
+                android:text="WorkingSince"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/colorBlack"
+                android:text="JobType"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/colorBlack"
+                android:text="ExpectedSalary"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/colorBlack"
+                android:text="Location"/>
+
+
+            <TextView
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/colorBlack"
+                android:text="Update On"/>
+
+            <ImageView
+                android:id="@+id/imagePhone"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="25dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:textSize="15sp"
+                android:textColor="@color/colorBlack"
+                app:srcCompat="@drawable/ic_phone"/>
+
+
+            <ImageView
+                android:id="@+id/imageEmail"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:textSize="15sp"
+                android:textColor="@color/colorBlack"
+                app:srcCompat="@drawable/ic_email"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:gravity="start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_margin="2dp"
+                android:id="@+id/idName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FullName"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_margin="2dp"
+                android:id="@+id/idCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="Category"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:id="@+id/idsubcategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="Subcategory"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:id="@+id/idage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="Age"/>
+            <TextView
+                android:layout_margin="2dp"
+                android:id="@+id/idgender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="Gender"/>
+
+
+            <TextView
+                android:layout_margin="2dp"
+                android:id="@+id/idmaritialstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="MaritalStatus"/>
+            <TextView
+                android:layout_margin="2dp"
+                android:id="@+id/idmaxedu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="MaximumEducation"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:id="@+id/idreligion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="Religion"/>
+
+
+            <TextView
+                android:layout_margin="2dp"
+                android:id="@+id/idSSkill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="ServiceSkill"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:id="@+id/idWs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="WorkingSince"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:id="@+id/idJobtype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="JobType"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:id="@+id/idExpectedsalary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="ExpectedSalary"/>
+
+
+            <TextView
+                android:layout_margin="2dp"
+                android:id="@+id/idlocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="Location"/>
+
+
+            <TextView
+                android:layout_margin="2dp"
+                android:id="@+id/updateon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:maxLength="10"
+                android:text="Update On"/>
+
+            <TextView
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/txtContact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="Contact"/>
+
+            <TextView
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="32dp"
+                android:id="@+id/txtEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="Email"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <Button
+
+
+        android:id="@+id/btcontact"
+        android:layout_width="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_height="50dp"
+        android:layout_marginBottom="25dp"
+        android:text="View Contact"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/button_radius"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center|bottom"
+        android:backgroundTint="@color/colorRed"
+        />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

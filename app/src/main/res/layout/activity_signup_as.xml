@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SignupAsActivity">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        app:theme="@style/ToolbarColoredBackArrow"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+        app:titleTextColor="@color/colorRed"
+        android:background="@color/colorWhite">
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_marginBottom="15dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo"/>
+
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:tint="#200B60"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/ic_person_"/>
+        <Button
+            android:id="@+id/employ_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+
+            android:background="@drawable/button_radius"
+            android:backgroundTint="@color/colorRed"
+            android:text="Employer"
+            android:textColor="@color/colorWhite"
+            android:elevation="10dp"
+            android:textFontWeight="5"
+            android:textSize="15sp"/>
+
+
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:tint="#200B60"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/ic_person_"/>
+
+
+
+        <Button
+            android:id="@+id/candi_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_radius"
+            android:backgroundTint="@color/colorRed"
+            android:text="Candidate"
+            android:textColor="@color/colorWhite"
+            android:elevation="10dp"
+            android:textFontWeight="5"
+            android:textSize="15sp"/>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:tint="#200B60"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/ic_person_"/>
+
+        <Button
+            android:id="@+id/agent_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_radius"
+            android:backgroundTint="@color/colorRed"
+            android:text="Agent"
+            android:textColor="@color/colorWhite"
+            android:elevation="10dp"
+            android:textFontWeight="5"
+            android:textSize="15sp"/>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

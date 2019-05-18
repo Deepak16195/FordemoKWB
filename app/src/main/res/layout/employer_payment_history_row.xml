@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="false">
+
+
+
+            <TextView
+            android:id="@+id/txtRefNo"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_design"
+            android:maxLines="1"
+            android:text="ViewCount"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp"
+            />
+
+            <TextView
+                android:id="@+id/txtPackageName"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_design"
+                android:maxLines="1"
+                android:text="PostCount"
+                android:textColor="@color/colorBlack"
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:id="@+id/txtAmount"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_design"
+                android:maxLines="1"
+                android:text="0.00"
+                android:gravity="right"
+
+                android:textColor="@color/colorBlack"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/txtGSTPer"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_design"
+                android:text="0.00"
+                android:gravity="right"
+                android:textColor="@color/colorBlack"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtTaxAmount"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_design"
+                android:text="0.00"
+                android:gravity="right"
+                android:textColor="@color/colorBlack"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtTotal"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_design"
+                android:text="0.00"
+                android:gravity="right"
+                android:textColor="@color/colorBlack"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtBuyDate"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_design"
+                android:text="0.00"
+                android:gravity="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/txtStatus"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_design"
+                android:text="status"
+                android:gravity="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="15sp" />
+
+
+
+
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+</LinearLayout>

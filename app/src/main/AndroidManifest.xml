@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.rdave.kamwaliapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:targetSandboxVersion="1"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCzUdQDHYwjQx1_GIWGIBAEZkJiDW0P6Cs"/>
+        <activity android:name=".Activity.CandidatebyEmpActivity"></activity>
+        <activity android:name=".Activity.ResetPassActivity" />
+        <activity android:name=".Activity.GetsupportActivity" />
+        <activity android:name=".Activity.ForgetpassActivity" />
+        <activity android:name=".Activity.ChangepassActivity" />
+        <activity android:name=".Activity.CProfileActivity" />
+        <activity android:name=".Activity.PackagesActivity" />
+        <activity android:name=".Activity.UpdateProfileActivity" />
+        <activity android:name=".Activity.CandidateDetailedActivity" />
+        <activity android:name=".Activity.SignupAsActivity" />
+        <activity android:name=".Activity.TCActivity" />
+        <activity android:name=".Activity.PPolicyActivity" />
+        <activity android:name=".Activity.SupportActivity" />
+        <activity android:name=".Activity.AboutusActivity" />
+        <activity android:name=".Activity.JobActivity" />
+        <activity android:name=".Activity.EmployerAppliedJob" />
+        <activity android:name=".Activity.EmployerPostJob" />
+        <activity android:name=".Activity.EmployerAccountSummary" />
+        <activity android:name=".Activity.EmployerPaymentHistory" />
+        <activity android:name=".Activity.EmployerViewedCandidate" />
+        <activity
+            android:name=".Activity.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activity.LoginActivity" />
+        <activity android:name=".Activity.C_listActivity" />
+        <activity android:name=".Activity.FirstActivity" />
+        <activity android:name=".Activity.CCAvenueWebViewAcitivty" />
+        <activity android:name=".Activity.CCAvenueStatusActivity" />
+        <activity android:name=".Activity.OnlineStatus" />
+        <activity android:name=".Activity.PostJobs" />
+        <activity android:name=".Activity.EmployerDashboard" />
+        <activity android:name=".Activity.AgentPaymentHistory" />
+        <activity android:name=".Activity.CandidateAppliedJob" />
+        <activity android:name=".Activity.AgentCandidateList" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.SignUp" />
+
+    </application>
+
+</manifest>

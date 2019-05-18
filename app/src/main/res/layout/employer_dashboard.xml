@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.UpdateProfileActivity">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        app:theme="@style/ToolbarColoredBackArrow"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+        app:titleTextColor="@color/colorRed"
+        android:background="@color/colorWhite">
+    </android.support.v7.widget.Toolbar>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="#17a2b8"
+    >
+
+    <ImageView
+        android:id="@+id/imageTotal"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+       android:tint="#b9e3ea"
+        app:srcCompat="@drawable/ic_total"/>
+    
+    <TextView
+        android:id="@+id/view_Total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_alignTop="@+id/imageTotal"
+        android:text="Total Views"
+        android:textColor="#bfdbdb"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/imageTotal"/>
+
+    <TextView
+        android:id="@+id/txtTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_Total"
+        android:textSize="22sp"
+        android:textColor="#ffffff"
+        android:text="0"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/imageTotal"/>
+
+
+
+
+
+</RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#6f42c1"
+                android:layout_marginTop="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/imageUsed"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="10dp"
+                    android:tint="#d4c6ec"
+                    app:srcCompat="@drawable/ic_eye"/>
+
+                <TextView
+                    android:id="@+id/view_Used"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:layout_alignTop="@+id/imageUsed"
+                    android:text="Used Views"
+                    android:textColor="#bfdbdb"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/imageUsed"/>
+
+                <TextView
+                    android:id="@+id/txtUsed1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view_Used"
+                    android:textSize="22sp"
+                    android:textColor="#ffffff"
+                    android:text="0"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/imageUsed"/>
+
+
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#1caf9a"
+            android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/imageBalance"
+                android:layout_width="100dp"
+                android:layout_centerVertical="true"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:tint="#bae7e1"
+                app:srcCompat="@drawable/ic_balance"/>
+
+            <TextView
+                android:id="@+id/view_Balance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_alignTop="@+id/imageBalance"
+                android:text="Balance Views"
+                android:textColor="#bfdbdb"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/imageBalance"/>
+
+            <TextView
+                android:id="@+id/txtBalance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view_Balance"
+                android:textSize="22sp"
+                android:textColor="#ffffff"
+                android:text="0"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/imageBalance"/>
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+
+                android:background="#17a2b8"
+                >
+
+                <ImageView
+                    android:id="@+id/imageTotal1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="10dp"
+                    android:tint="#b9e3ea"
+
+                    app:srcCompat="@drawable/ic_total"/>
+
+                <TextView
+                    android:id="@+id/view_Total1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:layout_alignTop="@+id/imageTotal1"
+                    android:text="Total Posts"
+                    android:textColor="#bfdbdb"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/imageTotal1"/>
+
+                <TextView
+                    android:id="@+id/txtTotal1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view_Total1"
+                    android:textSize="22sp"
+                    android:textColor="#ffffff"
+                    android:text="0"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/imageTotal1"/>
+
+
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#6f42c1"
+                android:layout_marginTop="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/imageUsed1"
+                    android:layout_centerVertical="true"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:tint="#d4c6ec"
+                    app:srcCompat="@drawable/ic_eye"/>
+
+                <TextView
+                    android:id="@+id/view_Used1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:text="Used Posts"
+                    android:layout_alignTop="@+id/imageUsed1"
+                    android:textColor="#bfdbdb"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/imageUsed1"/>
+
+                <TextView
+                    android:id="@+id/txtUsed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view_Used1"
+                    android:textSize="22sp"
+                    android:textColor="#ffffff"
+                    android:text="0"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/imageUsed1"/>
+
+
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#1caf9a"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+
+                >
+
+                <ImageView
+                    android:id="@+id/imageBalance1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:layout_centerVertical="true"
+                    android:tint="#bae7e1"
+                    app:srcCompat="@drawable/ic_balance"/>
+
+                <TextView
+                    android:id="@+id/view_Balance1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:text="Balance Posts"
+                    android:layout_alignTop="@+id/imageBalance1"
+                    android:textColor="#bfdbdb"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/imageBalance1"/>
+
+                <TextView
+                    android:id="@+id/txtBalance1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view_Balance1"
+                    android:textSize="22sp"
+                    android:textColor="#ffffff"
+                    android:text="0"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/imageBalance1"/>
+
+
+
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

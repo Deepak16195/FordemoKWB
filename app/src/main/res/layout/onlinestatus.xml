@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="6dp">
+
+    <ScrollView
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" 
+	    >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo"/>
+
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCongratulations"
+        android:textSize="32sp"
+        android:gravity="center_horizontal"
+        android:text="Congratulations !!!"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/holo_red_dark"/>
+
+
+    
+    <TextView 
+        android:id="@+id/txt_UserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#1caffc"/>
+    
+    <TextView 
+        android:id="@+id/txt_UserMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="8898713560"
+         android:textSize="15sp"
+        android:textColor="#1caffc"/>
+    
+    <TextView 
+        android:id="@+id/txtTransMsg"
+       android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Your online transaction is "
+        android:textSize="15sp"
+                android:layout_marginTop="15dp"
+        android:textColor="@color/colorBlack"/>
+    
+
+    
+
+        
+
+     
+     
+     <TextView
+         android:id="@+id/transactnum"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="@color/colorBlack"
+         android:text="Trans Numb"
+         android:visibility="gone"
+         android:textSize="18sp"
+         android:layout_marginTop="15dp"
+         android:gravity="center_horizontal"
+         android:layout_gravity="center_horizontal"
+          
+         />
+    
+    <Button 
+        android:id="@+id/btnSuccessfully_Close"
+        android:text="Close"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_radius"
+        android:gravity="center"
+        android:backgroundTint="@color/colorRed"
+
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorWhite"/>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

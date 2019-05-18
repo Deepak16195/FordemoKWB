@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" android:id="@+id/nav1">
+
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_login_24dp"
+            android:title="Login/Register" />
+        <item
+            android:id="@+id/nav_Dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_pricing"
+            android:icon="@drawable/ic_pricing_plan_24dp"
+            android:title="Pricing Plans" />
+        <item
+            android:id="@+id/nav_rcandi"
+            android:icon="@drawable/ic_agent_login_24dp"
+            android:title="Refer a candigate/Agent Login" />
+
+    </group >
+
+
+    <group android:id="@+id/nav4">
+
+        <item
+            android:id="@+id/nav_AppliedJob"
+            android:icon="@drawable/ic_assessment"
+            android:title="Applied Jobs" />
+
+        <item
+            android:id="@+id/nav_ViewedCandidate"
+            android:icon="@drawable/ic_assessment"
+            android:title="Viewed Candidates" />
+
+        <item
+            android:id="@+id/nav_PostJobs"
+            android:icon="@drawable/ic_assessment"
+            android:title="Post Jobs" />
+
+        <item
+            android:id="@+id/nav_Summary"
+            android:icon="@drawable/ic_assessment"
+            android:title="Account Summary" />
+
+        <item
+            android:id="@+id/nav_Payment"
+            android:icon="@drawable/ic_assessment"
+            android:title="Payment History" />
+
+
+    </group>
+
+
+
+    <group android:id="@+id/nav5">
+
+        <item
+            android:id="@+id/nav_CandidateAppliedJob"
+            android:icon="@drawable/ic_assessment"
+            android:title="Applied Jobs" />
+</group>
+
+    <group android:id="@+id/nav6">
+
+        <item
+            android:id="@+id/nav_CandidateAgentList"
+            android:icon="@drawable/ic_assessment"
+            android:title="Candidate List" />
+
+        <item
+            android:id="@+id/nav_agentPaymentHistory"
+            android:icon="@drawable/ic_assessment"
+            android:title="Payment History" />
+    </group>
+
+
+    <group android:id="@+id/nav2">
+
+    <item
+        android:id="@+id/nav_aboutus"
+        android:icon="@drawable/ic_aboutus_24dp"
+        android:title="About Us" />
+
+    <item
+        android:id="@+id/nav_Support"
+        android:icon="@drawable/ic_help_black_24dp"
+        android:title="Support" />
+
+    <item
+        android:id="@+id/nav_ppolicy"
+        android:icon="@drawable/ic_p_policy_24dp"
+        android:title="Privacy Policy" />
+    <item
+        android:id="@+id/nav_t_c"
+        android:icon="@drawable/ic_t_condition24dp"
+        android:title="Terms and Condition" />
+
+
+    </group>
+
+    <group android:id="@+id/nav3">
+
+        <item
+            android:id="@+id/nav_changepass"
+            android:icon="@drawable/ic_changepass_24dp"
+            android:title="Change Password" />
+
+
+        <item
+                android:id="@+id/nav_signout"
+                android:icon="@drawable/ic_sign_out_24dp"
+                android:title="Sign out" />
+
+    </group>
+
+
+
+</menu>

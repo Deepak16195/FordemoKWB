@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:outlineAmbientShadowColor="@color/colorBlack"
+    app:cardElevation="5dp"
+    android:layout_margin="5dp"
+    >
+    <LinearLayout
+        android:background="@color/colorlightGrey"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:padding="8dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:id="@+id/jl_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_margin="2dp"/>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_margin="2dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sub Category Name:"/>
+
+
+
+                    <TextView
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_margin="2dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Job State"/>
+
+                    <TextView
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_margin="2dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Job City"/>
+
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:layout_margin="2dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Job Location:"/>
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:layout_margin="2dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Job Time"/>
+                    <TextView
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_margin="2dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Qualification:"/>
+
+                    <TextView
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_margin="2dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Language:"/>
+
+
+                    <TextView
+                        android:textSize="15sp"
+                        android:layout_margin="2dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Salary:"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textSize="15sp"
+                        android:layout_margin="2dp"
+                        android:id="@+id/jl_name"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Company Name"/>
+
+
+
+
+
+                    <TextView
+                        android:textSize="15sp"
+                        android:layout_margin="2dp"
+                        android:id="@+id/jl_State"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Landmark"/>
+
+
+                    <TextView
+                        android:textSize="15sp"
+                        android:layout_margin="2dp"
+                        android:id="@+id/jl_city"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Qualification"/>
+
+
+
+
+                    <TextView
+                        android:textSize="15sp"
+                        android:layout_margin="2dp"
+                        android:id="@+id/jl_location"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Part/Full Time"/>
+
+
+
+
+
+
+                    <TextView
+                        android:textSize="15sp"
+                        android:layout_margin="2dp"
+                        android:id="@+id/jl_time"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Job Time"/>
+
+                    <TextView
+                        android:textSize="15sp"
+                        android:layout_margin="2dp"
+                        android:id="@+id/jl_qalify"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Qualification"/>
+
+                    <TextView
+                        android:textSize="15sp"
+                        android:layout_margin="2dp"
+                        android:id="@+id/jl_language"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Qualification"/>
+
+                    <TextView
+                        android:textSize="15sp"
+                        android:layout_margin="2dp"
+                        android:id="@+id/jl_salary"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Salary"/>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_Desciption"
+               android:layout_margin="2dp"
+                android:layout_marginTop="3dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Test "
+               />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:weightSum="5"
+       android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/txt_upload"
+        android:layout_marginLeft="40dp"
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_weight="3.8"
+        android:layout_height="wrap_content"
+        android:text="Updated On: 14-03-2019"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_weight="1.1"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        >
+
+        <Button
+
+            android:id="@+id/btview"
+            android:layout_width="105dp"
+            android:layout_height="30dp"
+            android:text="Edit"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/button_radius"
+            android:backgroundTint="@color/colorRed"
+
+            />
+    </LinearLayout>
+
+<!--    <Button
+        android:backgroundTint="@color/colorRed"
+        android:layout_gravity="right|bottom"
+        android:id="@+id/btview"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="Delete"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/button_radius"
+        android:layout_margin="8dp"
+        />-->
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
